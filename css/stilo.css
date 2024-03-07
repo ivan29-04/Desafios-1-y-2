@@ -1,0 +1,47 @@
+/* stilo.css */
+
+body {
+    background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #000000, #ffffff);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #00ffdd, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.center {
+    text-align: center;
+}
+
+.titulo {
+    font-size: 50px;
+    color: #00312c;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+
+.letra {
+    font-size: 18px;
+    color: #000000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.boton {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.boton:hover {
+    background-color: #45a049;
+}
+
+/* Estilo específico para el botón en la línea mencionada */
+form[action="subir_archivo.php"] .boton {
+    background-color: #3498db;
+}
+
+form[action="subir_archivo.php"] .boton:hover {
+    background-color: #2980b9;
+}
